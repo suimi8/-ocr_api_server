@@ -1,1 +1,1 @@
-web: python3 ocr_server.py --ocr --det
+ocr: python3 ocr_server.py --port $PORT --ocr --det
