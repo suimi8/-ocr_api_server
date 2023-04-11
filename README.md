@@ -9,6 +9,7 @@
 ## Deploy on Cloud
 
 直接部署到Railway
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/YMzXkd?referralCode=bqe7KE)
 ## 最简单运行方式
 
