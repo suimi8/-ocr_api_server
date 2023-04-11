@@ -6,7 +6,10 @@
 再有不好好看文档的我就不管了啊！！！
 
 # 运行方式
+## Deploy on Cloud
 
+直接部署到Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/YMzXkd?referralCode=bqe7KE)
 ## 最简单运行方式
 
 ```shell
