@@ -8,9 +8,13 @@
 # 运行方式
 ## Deploy on Cloud
 
-直接部署到Railway
+### 直接部署到Railway
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/YMzXkd?referralCode=bqe7KE)
+
+### Deploy Alist to Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 ## 最简单运行方式
 
 ```shell
