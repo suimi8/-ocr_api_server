@@ -1,5 +1,5 @@
 # ocr_api_server
-使用ddddocr的最简api搭建项目，支持docker
+使用ddddocr的最简api搭建项目
 
 **建议python版本3.7-3.9 64位**
 
@@ -41,24 +41,6 @@ python ocr_server.py --port 9898 --ocr --det
 
 # 同时开启ocr模块并使用旧模型计算以及目标检测模块
 python ocr_server.py --port 9898 --ocr --old --det
-
-```
-
-## docker运行方式(目测只能在Linux下部署)
-
-```shell
-git clone https://github.com/sml2h3/ocr_api_server.git
-# docker怎么安装？百度吧
-
-cd ocr_api_server
-
-# 修改entrypoint.sh中的参数，具体参数往上翻，默认9898端口，同时开启ocr模块以及目标检测模块
-
-# 编译镜像
-docker build -t ocr_server:v1 .
-
-# 运行镜像
-docker run -p 9898:9898 -d ocr_server:v1
 
 ```
 
